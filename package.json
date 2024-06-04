@@ -1,0 +1,28 @@
+{
+	"name": "loregirardi",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"svelte": "^4.2.7",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@glidejs/glide": "^3.6.1",
+		"@prismicio/client": "^7.5.0",
+		"@prismicio/helpers": "^2.3.9",
+		"hammerjs": "^2.0.8",
+		"is-mobile": "^4.0.0",
+		"just-throttle": "^4.2.0",
+		"locomotive-scroll": "^4.1.4",
+		"prismic-dom": "^2.1.0"
+	}
+}
