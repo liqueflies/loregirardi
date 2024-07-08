@@ -1,7 +1,6 @@
 // import {Predicates} from 'prismic-javascript';
 import * as Prismic from "@prismicio/client";
 import { PRISMIC_ENDPOINT } from '$env/static/private'
-console.log("process.env.PRISMIC_ENDPOINT", PRISMIC_ENDPOINT)
 const Client = Prismic.createClient(PRISMIC_ENDPOINT);
 
 export async function load() {

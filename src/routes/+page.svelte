@@ -10,9 +10,7 @@
 </script>
 
 <script>
-  console.log("aaaa");
   export let data;
-  console.log("posts", data);
 </script>
 
 <svelte:head>

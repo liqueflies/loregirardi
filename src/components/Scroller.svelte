@@ -11,7 +11,6 @@
   let listeners = [];
 
   onMount(async () => {
-    console.log("okkkk");
     const LocomotiveModule = await import("locomotive-scroll");
     const LocomotiveScroll = LocomotiveModule.default;
 
