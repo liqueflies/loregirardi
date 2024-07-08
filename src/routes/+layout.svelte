@@ -5,8 +5,6 @@
   import Canvas from "../components/Canvas.svelte";
 
   import "../global.css";
-
-  export const prerender = true;
 </script>
 
 <Scroller>
